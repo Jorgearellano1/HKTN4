@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Estilos para las tablas */
+
+.data-grid {
+  margin: 20px 0;                /* Espacio entre las tablas */
+  width: 80%;                    /* Ancho de la tabla */
+  margin-left: auto;             /* Centrar la tabla horizontalmente */
+  margin-right: auto;
+  border-collapse: collapse;     /* Juntar los bordes de las celdas */
+}
+
+.data-grid th, .data-grid td {
+  border: 1px solid #ddd;        /* Borde a las celdas */
+  padding: 8px;                  /* Espaciado interno para las celdas */
+}
+
+.data-grid th {
+  background-color: #f2f2f2;    /* Color de fondo para las cabeceras */
+  text-align: center;            /* Centrar texto de las cabeceras */
+}
+
+/* Animación para el logo */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
